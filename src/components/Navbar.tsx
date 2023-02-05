@@ -2,7 +2,7 @@ import { navLinks } from "../utils/navLinks";
 import Link from "next/link";
 
 export default function () {
-    return  <div className="navbar bg-base-100">
+    return  <nav className="navbar bg-base-100">
                 <div className="flex-1">
                     <a className="btn btn-ghost normal-case text-xl">MGL</a>
                     { navLinks.map((link, index) => {
@@ -36,6 +36,6 @@ export default function () {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
     ;
 }
