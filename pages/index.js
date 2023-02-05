@@ -1,5 +1,5 @@
 function HomePage() {
-    return <div>My Games Library</div>;
+    return <div className="text-3xl font-bold underline">My Games Library</div>;
   }
   
 export default HomePage
