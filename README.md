@@ -9,6 +9,7 @@ git clone https://github.com/sf-dev-git/my-games-library.git
 
 Run setup Command
 ```cli
+cd my-games-library
 npm run setup
 ```
 
